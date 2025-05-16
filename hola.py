@@ -42,7 +42,7 @@
 # else:
 #     print("El numero es impar")
 
-color=input("Ingrese un color")
+# color=input("Ingrese un color")
 
 #si es azul es de la u
 #si es blanco cc
@@ -50,12 +50,13 @@ color=input("Ingrese un color")
 #si es verde audax
 #si es otro, color no valido
 
-if color =="azul":
-    print("es de la u")
-elif color =="blanco":
-    print("es de colo colo")
-elif color =="rojo":
-    print("es de union española")
-elif color =="verde":
-    print("es de audax")
-else: print("color invalido")
+# if color =="azul":
+#     print("es de la u")
+# elif color =="blanco":
+#     print("es de colo colo")
+# elif color =="rojo":
+#     print("es de union española")
+# elif color =="verde":
+#     print("es de audax")
+# else: print("color invalido")
+
