@@ -86,3 +86,79 @@ for atleta in range(atle):
     else:
         print("A ganado el oro")
     print("El record acual es ", record)
+
+#libreria moda
+#crear menu de comics
+#1.- Comprar
+#2.- Generar boleta
+#3.- Salir
+#en la opcion de disponibles, mostrar los comics con sus precios
+#cuando se compra mostrar la cantidad de articulos que lleva
+#mas el monto y monto mas iva
+#si ingres codigo de descuento "IAMBATMAN" obtiene 25% de descuento al valor neto
+precio=0
+CantA=0
+def menu():
+    while True:
+        print("""
+              1.- Spiderman $5500
+              2.  Batmam $5500
+              3.- Capitan america $4000
+              4.- Hulk $3500
+              5.- Salir al menu""")
+        op1=int(input("Seleccione el comic a agregar"))
+        match op:
+            case 1:
+                print("Usted agrego comic spiderman por 5500$")
+                precio+=5500
+                cantA+=1
+            case 2:
+                print("Usted agrego comic batman por 5500$")
+                precio+=5500
+                cantA+=1
+            case 3:
+                print("Usted agrego comic capitan america por 4000$")
+                precio+=4000
+                cantA=+1
+            case 4:
+                print("Usted agrego comic batman por 3500$")
+                precio+=3500
+                cantA+=1
+            case 5:
+                print("Saliendo")
+                break
+
+def boleta():
+    SI="IAMBATMAN"
+    cupon=int(input"tiene cupon de descuento? 1=si 2=no")
+    if cupon=1
+        prueba=(input"Ingrese su cupon de descuento")
+        if prueba=SI:
+        
+        
+        
+        print("El valor total es ", precio)
+        print("El valor mas IVA es de ", precio*1.19)
+
+
+while True:
+    try:
+        op=int(input("""
+                 1.-Menu
+                 2.-Boleta
+                 3. Salir
+                 """))
+        match op:
+            case 1:
+                menu()
+            case 2:
+                boleta()
+            case 3:
+                print()
+                break
+            case _:
+                print("Opcion invalida")
+    
+    except Exception:
+        print("solo numeros enteros")
+
