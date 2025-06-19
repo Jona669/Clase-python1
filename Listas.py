@@ -70,20 +70,28 @@ carrito=[]
 cantp=0
 
 while True:
-    print("""
-          1.-Agregar un producto
-          2.-Comprar
-          3.-Crear boleta
-          4.-Salir
-          """)
-    
-    op=int(input("Seleccione una opcion"))
+    try:
+        print("""
+            1.-Agregar un producto
+            2.-Comprar
+            3.-Crear boleta
+            4.-Salir
+            """)
+        
+        op=int(input("Seleccione una opcion"))
+    except Exception:
+        print("Solo numeros enteros")
 
     match op:
         case 1:
             Agrego=input("Que producto desea agregar?")
             productos.append(Agrego)
         case 2:
+            for i in range(len(productos)):
+                print(i+1, productos [i], "$", precios [i])
+            prod=int(input("Seleccione una opcion: "))
+            carrito.append(prod-1)
+            print(carrito)
 
         case 3:
 
