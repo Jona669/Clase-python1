@@ -71,12 +71,12 @@
 #     except Exception:
 #         print("Solo numeros enteros")
 
-productos=[
-    {"nombre":"lapiz", "precio" : 400},
-    {"nombre":"goma", "precio" : 200},
-    {"nombre":"estuche", "precio" : 1600}
-]
-print(productos{2})
+# productos=[
+#     {"nombre":"lapiz", "precio" : 400},
+#     {"nombre":"goma", "precio" : 200},
+#     {"nombre":"estuche", "precio" : 1600}
+# ]
+# print(productos{2})
 
 # tarea
 # agregar articulo
@@ -85,3 +85,5 @@ print(productos{2})
 # mostrar listado de articulos
 # salir
 # como diccionario
+
+
